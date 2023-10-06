@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <div class="body">
+    <section class="hero  is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+            facemov
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+     <div class="columns">
+       <div class="column">
+         <div id="left-autocomplete"></div>
+         <div class="left-summary"></div>
+       </div>
+       <div class="column">
+         <div id="right-autocomplete"></div>
+         <div class="right-summary"></div>
+       </div>
+      </div>
+    
+      <div class="column is-half notification  tutorial">
+        <h1 class="title">Search for a Movie on both sides</h1>
+        <p class="subtitle">We will tell you which is best!</p>
+      </div>
+    </div>
+    <script src = "utils.js"></script>
+    <script src = "autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
